@@ -1,0 +1,19 @@
+# commented lines are for home use only
+[credential]
+ 	helper = osxkeychain
+[user]
+ 	name = Cassie Yaple
+ 	email = cmyaple@gmail.com
+[core]
+    editor = subl
+[push]
+	default = simple
+[alias]
+    dag = log --graph --format='format:%C(yellow)%h%C(reset) %C(blue)\"%an\" <%ae>%C(reset) %C(magenta)%ar%C(reset)%C(auto)%d%C(reset)%n%s' --date-order --all
+    ci = commit
+    co = checkout
+    st = status
+[pull]
+	rebase = true
+[status]
+	short = true
