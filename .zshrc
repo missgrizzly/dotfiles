@@ -68,7 +68,7 @@ fi
 # export ARCHFLAGS="-arch x86_64"
 
 # ssh
-# export SSH_KEY_PATH="~/.ssh/id_rsa"
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
 
 #don't bail if glob-matching fails
 #this is for stuff like git checkout HEAD^
